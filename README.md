@@ -5,7 +5,7 @@ This project provides an end-to-end pipeline for generating and evaluating IELTS
 - A **BERT-based evaluator** a encoder model for scoring essays,
 - A **T5-small-based model** using an encoder-decoder model to make this task as Seq2Seq task, with encoder will analyse the essay and decoder to generate an evaluation with detailed evaluation of IELTS writing components (Task Response, Coherence & Cohesion, Lexical Resource, Grammatical Range & Accuracy).
 
----
+```
 
 ## Folder Structure
 TEST_FOR_RUNNING_PROJECT/
@@ -17,9 +17,8 @@ TEST_FOR_RUNNING_PROJECT/
 ├── test_for_evaluation_text.ipynb # Test for generating detailed evaluation for an essay based on band-score and question
 ├── test_for_model.ipynb # Test for generating essays from GPT-NEO fine-tuned model
 
----
+```
 
----
 
 ##  Model Descriptions
 
@@ -61,5 +60,19 @@ TEST_FOR_RUNNING_PROJECT/
 
 ---
 
+## Evaluation Metrics
+
+### BERT Model (Band Score Prediction)
+
+The BERT model was fine-tuned to classify full essays into IELTS band scores from 4.0 to 9.0. Below are the evaluation results:
+
+| Metric                     | Value        |
+|---------------------------|--------------|
+| **Eval Accuracy**         | 95.72%       |
+| **Eval F1 Score (Macro)** | 93.90%       |
+| **Eval Loss**             | 0.2256        |
+> These results indicate a high-performing model with excellent precision and generalization across multiple band classes.
+
+---
 
 
