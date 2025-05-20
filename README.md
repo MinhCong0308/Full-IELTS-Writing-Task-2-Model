@@ -5,9 +5,13 @@ This project provides an end-to-end pipeline for generating and evaluating IELTS
 - A **BERT-based evaluator** a encoder model for scoring essays,
 - A **T5-small-based model** using an encoder-decoder model to make this task as Seq2Seq task, with encoder will analyse the essay and decoder to generate an evaluation with detailed evaluation of IELTS writing components (Task Response, Coherence & Cohesion, Lexical Resource, Grammatical Range & Accuracy).
 
-```
+
 
 ## Folder Structure
+
+
+```
+
 TEST_FOR_RUNNING_PROJECT/
 ├── notebook_finetune/ # All Jupyter notebooks for training & testing
 │ ├── bert-finetune-for-evaluate-ielts-score.ipynb
