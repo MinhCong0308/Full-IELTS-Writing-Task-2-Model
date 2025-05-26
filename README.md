@@ -19,8 +19,6 @@ TEST_FOR_RUNNING_PROJECT/
 
 ---
 
----
-
 ##  Model Descriptions
 
 ###  GPT-Neo for Essay Generation
