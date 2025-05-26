@@ -26,7 +26,9 @@ TEST_FOR_RUNNING_PROJECT/
 ###  GPT-Neo for Essay Generation
 - **Checkpoint:** `gpt_ielts/checkpoint-8170`
 - **Notebook:** `finetune_gpt_neo_for_generating_essay.ipynb`
+- **New notebook:** `generating-ielts-writing-task-2-sample.ipynb`
 - Fine-tuned on high-quality IELTS samples to generate Band 6–9 level essays based on input prompts/questions.
+- New notebook that fine tune in processed dataset about consistency and more diverse field in IELTS Writing Task 2
 
 ###  BERT for Band Score Prediction
 - **Checkpoint Directory:** `eval_score/`
