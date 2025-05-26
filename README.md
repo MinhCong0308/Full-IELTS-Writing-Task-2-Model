@@ -60,6 +60,16 @@ TEST_FOR_RUNNING_PROJECT/
 - **GPT-NEO finetune model**: Using some websibe that automated evaluate IELTS Writing score for testing performance of model.
 
 ---
+## Requirement
+- **Pytorch**: 
+- **Transformers**: For loading pretrained model and tokenizer
+- **Uvicorn**: For running API server
+- **FastAPI**: for initialize application and setting body request.
+- Command to install: pip install fastapi uvicorn transformers torch
 
+---
+## How to run
+You need to run this command in terminal to loading app and activate the server
+uvicorn app:app --host 0.0.0.0 --port 8000
 
 
